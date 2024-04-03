@@ -3,7 +3,7 @@
 const fs = require('fs');
 setTimeout(() => {
     console.log("Awake after 30 seconds!");
-  }, 10000); // 10,000 milliseconds = 10 seconds
+  }, 10000); // 10,000 milliseconds = 10 seconds //you can change time
 // Reading a file asynchronously
 fs.readFile('example.txt', 'utf8', (err, data) => {
   if (err) {
